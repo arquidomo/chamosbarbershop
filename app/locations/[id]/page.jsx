@@ -4,7 +4,7 @@ import { stores } from "@/app/data/stores";
 import { FaPhoneAlt } from "react-icons/fa";
 import { ScheduleTable } from "./components/ScheduleTable";
 import { BsCalendarDay } from "react-icons/bs";
-import Image from "next/image";
+import { GalleryLayout } from "./components/GalleryLayout";
 
 export const generateMetadata = ({ params }) => {
   const store = stores.find((store) => store.id === params.id);
@@ -46,14 +46,10 @@ const page = ({ params }) => {
         <div className="flex flex-col gap-y-4 lg:flex-row justify-between">
           <div className="w-full lg:w-4/6 lg:pr-10">
             <p className="font-bold text-2xl mb-4">{data.name}</p>
-            <Image
-              className="w-full rounded-md shadow-lg"
-              src={data.image}
-              alt={data.name}
-              width={640}
-              height={427}
-            />
-            <div className="flex mt-11 flex-col md:flex-row justify-around items-center ">
+            <GalleryLayout images={data.gallery} />
+            <p className="mt-11 mb-2">Schedule</p>
+            <ScheduleTable />
+            <div className="flex my-11 flex-col md:flex-row justify-around items-center ">
               <a
                 href={`tel:${data.phone}`}
                 target="__blank"
@@ -72,8 +68,6 @@ const page = ({ params }) => {
                 Book now!
               </a>
             </div>
-            <p className="mt-11 mb-2">Schedule</p>
-            <ScheduleTable />
             <div className="mb-11">
               <p>Address</p>
               <p className="mb-2">{data.address}</p>

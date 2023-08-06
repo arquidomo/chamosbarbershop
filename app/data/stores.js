@@ -1,7 +1,3 @@
-import chamos_barber from "../../public/stores/chamos-barbershop.webp";
-import chamos_barber2 from "../../public/stores/chamos-barbershop-2.webp";
-import chamos_barber3 from "../../public/stores/chamos-barbershop-3.webp";
-
 export const stores = [
   {
     id: "chamos-barber-1",
@@ -29,7 +25,33 @@ export const stores = [
     get barbers() {
       return this.employees.length;
     },
-    image: chamos_barber,
+    image: "/gallery/chamos-barber-1/front.webp",
+    gallery: [
+      {
+        original: "/gallery/chamos-barber-1/front.webp",
+        thumbnail: "/gallery/chamos-barber-1/front.webp",
+      },
+      {
+        original: "/gallery/chamos-barber-1/inside.webp",
+        thumbnail: "/gallery/chamos-barber-1/inside.webp",
+      },
+      {
+        original: "/gallery/chamos-barber-1/inside1.webp",
+        thumbnail: "/gallery/chamos-barber-1/inside1.webp",
+      },
+      {
+        original: "/gallery/chamos-barber-1/inside2.webp",
+        thumbnail: "/gallery/chamos-barber-1/inside2.webp",
+      },
+      {
+        original: "/gallery/chamos-barber-1/inside3.webp",
+        thumbnail: "/gallery/chamos-barber-1/inside3.webp",
+      },
+      {
+        original: "/gallery/chamos-barber-1/inside4.webp",
+        thumbnail: "/gallery/chamos-barber-1/inside4.webp",
+      },
+    ],
   },
   {
     id: "chamos-barber-2",
@@ -57,7 +79,33 @@ export const stores = [
     get barbers() {
       return this.employees.length;
     },
-    image: chamos_barber2,
+    image: "/gallery/chamos-barber-2/front.webp",
+    gallery: [
+      {
+        original: "/gallery/chamos-barber-2/front.webp",
+        thumbnail: "/gallery/chamos-barber-2/front.webp",
+      },
+      {
+        original: "/gallery/chamos-barber-2/inside.webp",
+        thumbnail: "/gallery/chamos-barber-2/inside.webp",
+      },
+      {
+        original: "/gallery/chamos-barber-2/inside1.webp",
+        thumbnail: "/gallery/chamos-barber-2/inside1.webp",
+      },
+      {
+        original: "/gallery/chamos-barber-2/inside2.webp",
+        thumbnail: "/gallery/chamos-barber-2/inside2.webp",
+      },
+      {
+        original: "/gallery/chamos-barber-2/inside3.webp",
+        thumbnail: "/gallery/chamos-barber-2/inside3.webp",
+      },
+      {
+        original: "/gallery/chamos-barber-2/inside4.webp",
+        thumbnail: "/gallery/chamos-barber-2/inside4.webp",
+      },
+    ],
   },
   {
     id: "chamos-barber-3",
@@ -85,6 +133,32 @@ export const stores = [
     get barbers() {
       return this.employees.length;
     },
-    image: chamos_barber3,
+    image: "/gallery/chamos-barber-3/inside.webp",
+    gallery: [
+      {
+        original: "/gallery/chamos-barber-3/front.webp",
+        thumbnail: "/gallery/chamos-barber-3/front.webp",
+      },
+      {
+        original: "/gallery/chamos-barber-3/inside.webp",
+        thumbnail: "/gallery/chamos-barber-3/inside.webp",
+      },
+      {
+        original: "/gallery/chamos-barber-3/inside1.webp",
+        thumbnail: "/gallery/chamos-barber-3/inside1.webp",
+      },
+      {
+        original: "/gallery/chamos-barber-3/inside2.webp",
+        thumbnail: "/gallery/chamos-barber-3/inside2.webp",
+      },
+      {
+        original: "/gallery/chamos-barber-3/inside3.webp",
+        thumbnail: "/gallery/chamos-barber-3/inside3.webp",
+      },
+      {
+        original: "/gallery/chamos-barber-3/inside4.webp",
+        thumbnail: "/gallery/chamos-barber-3/inside4.webp",
+      },
+    ],
   },
 ];
