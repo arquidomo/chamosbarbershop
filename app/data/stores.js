@@ -30,26 +30,32 @@ export const stores = [
       {
         original: "/gallery/chamos-barber-1/front.webp",
         thumbnail: "/gallery/chamos-barber-1/front.webp",
+        originalAlt: "Front Image",
       },
       {
         original: "/gallery/chamos-barber-1/inside.webp",
         thumbnail: "/gallery/chamos-barber-1/inside.webp",
+        originalAlt: "Inside Image",
       },
       {
         original: "/gallery/chamos-barber-1/inside1.webp",
         thumbnail: "/gallery/chamos-barber-1/inside1.webp",
+        originalAlt: "Inside Image",
       },
       {
         original: "/gallery/chamos-barber-1/inside2.webp",
         thumbnail: "/gallery/chamos-barber-1/inside2.webp",
+        originalAlt: "Inside Image",
       },
       {
         original: "/gallery/chamos-barber-1/inside3.webp",
         thumbnail: "/gallery/chamos-barber-1/inside3.webp",
+        originalAlt: "Inside Image",
       },
       {
         original: "/gallery/chamos-barber-1/inside4.webp",
         thumbnail: "/gallery/chamos-barber-1/inside4.webp",
+        originalAlt: "Inside Image",
       },
     ],
   },
@@ -84,26 +90,32 @@ export const stores = [
       {
         original: "/gallery/chamos-barber-2/front.webp",
         thumbnail: "/gallery/chamos-barber-2/front.webp",
+        originalAlt: "Front Image",
       },
       {
         original: "/gallery/chamos-barber-2/inside.webp",
         thumbnail: "/gallery/chamos-barber-2/inside.webp",
+        originalAlt: "Inside Image",
       },
       {
         original: "/gallery/chamos-barber-2/inside1.webp",
         thumbnail: "/gallery/chamos-barber-2/inside1.webp",
+        originalAlt: "Inside Image",
       },
       {
         original: "/gallery/chamos-barber-2/inside2.webp",
         thumbnail: "/gallery/chamos-barber-2/inside2.webp",
+        originalAlt: "Inside Image",
       },
       {
         original: "/gallery/chamos-barber-2/inside3.webp",
         thumbnail: "/gallery/chamos-barber-2/inside3.webp",
+        originalAlt: "Inside Image",
       },
       {
         original: "/gallery/chamos-barber-2/inside4.webp",
         thumbnail: "/gallery/chamos-barber-2/inside4.webp",
+        originalAlt: "Inside Image",
       },
     ],
   },
@@ -138,26 +150,32 @@ export const stores = [
       {
         original: "/gallery/chamos-barber-3/front.webp",
         thumbnail: "/gallery/chamos-barber-3/front.webp",
+        originalAlt: "Front Image",
       },
       {
         original: "/gallery/chamos-barber-3/inside.webp",
         thumbnail: "/gallery/chamos-barber-3/inside.webp",
+        originalAlt: "Inside Image",
       },
       {
         original: "/gallery/chamos-barber-3/inside1.webp",
         thumbnail: "/gallery/chamos-barber-3/inside1.webp",
+        originalAlt: "Inside Image",
       },
       {
         original: "/gallery/chamos-barber-3/inside2.webp",
         thumbnail: "/gallery/chamos-barber-3/inside2.webp",
+        originalAlt: "Inside Image",
       },
       {
         original: "/gallery/chamos-barber-3/inside3.webp",
         thumbnail: "/gallery/chamos-barber-3/inside3.webp",
+        originalAlt: "Inside Image",
       },
       {
         original: "/gallery/chamos-barber-3/inside4.webp",
         thumbnail: "/gallery/chamos-barber-3/inside4.webp",
+        originalAlt: "Inside Image",
       },
     ],
   },

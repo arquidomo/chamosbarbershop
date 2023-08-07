@@ -7,17 +7,7 @@ export const NewHero = () => {
     <section className="bg-[url(/hero.webp)] bg-cover  text-white">
       <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
         <div className="mx-auto max-w-3xl text-center">
-          {/* <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
-            Welcome to Chamos Barber
-            <span className="sm:block"> Elevating Men&apos;s Grooming. </span>
-          </h1> */}
-          <Image src="/logohero.webp" width={727} height={268} />
-
-          {/* <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-            Experience the ultimate in men&apos;s grooming at Chamos Barber Shop. Our team of
-            skilled barbers is dedicated to delivering exceptional haircuts, grooming, and styling
-            services tailored specifically to you.
-          </p> */}
+          <Image src="/logohero.webp" width={727} height={268} alt="Logo Hero" />
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Link
