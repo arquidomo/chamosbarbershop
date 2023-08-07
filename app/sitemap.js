@@ -25,7 +25,7 @@ export default function sitemap() {
         lastModified: new Date(),
       },
       {
-        url: "https://www.chamosbarbershop.com/serviceschamos-barber-3",
+        url: "https://www.chamosbarbershop.com/locations/chamos-barber-3",
         lastModified: new Date(),
       },
     ];
