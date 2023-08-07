@@ -13,6 +13,10 @@ export default function sitemap() {
         lastModified: new Date(),
       },
       {
+        url: "https://www.chamosbarbershop.com/services",
+        lastModified: new Date(),
+      },
+      {
         url: "https://www.chamosbarbershop.com/locations/chamos-barber-1",
         lastModified: new Date(),
       },
